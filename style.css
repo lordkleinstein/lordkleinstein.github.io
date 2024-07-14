@@ -2,6 +2,7 @@
     position: fixed;
     top: 20px;
     left: 20px;
+    color: black;
     }
 #cr7 {
     background-color: #ffffff;
@@ -18,6 +19,9 @@
     margin-right: 10px;
 }
 #cr1 {
-    width: 100vw;
-    border: black 1px solid;
+    width: calc(100vw-10px);
+    border: black 3px solid;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 20px 10px 20px  -2px gray;
 }
