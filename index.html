@@ -1,29 +1,44 @@
-﻿<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<link rel="stylesheet" href="style.css">
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-    <div id="cr1">
-        <form action="https://formspree.io/f/mpwawrkd" method="POST">
-            <label id="cr5" >Deine nachricht an mich:</label>
-            <input type = text required name="message" id="cr5" value="Nachricht"> 
-            <button type="submit" id="cr7" name="cr7"> Senden </button> 
-         </form>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-    </div>
-        <script src="" async defer></script>
-    </body>
-</html>
+<head>
+<link rel="stylesheet" href="stylesheet.css"> <meta charset="utf-8">
+</head>
+<html class="html">
+<h1 class="alt" style="color: rgba(10,86,155,1)"> Hausärtzte Hauingen</h1>
+
+<p class="unterschrift">Praxisgemeinschaft in der Rechberstr. 9, 79541 Lörrach Hauingen - 07621 770 4870</p>
+
+<div class="images">
+<img src="image1.jpg">
+<img src="image2.jpg">
+</div>
+<div id="Notfall">Notfall</div>
+<div id="Notfaller"><h2><b><u>Notfall</u></b></h2><p>Ärtzlicher Notfalldienst: Mo-Fr von 7-19 Uhr unter 01805 152637 Nach 19:00 Uhr sowie an Feiertagen und Wochenenden erreichen Sie den Ärztlichen Bereitschaftsdienst unter der Telefonnummer 116117. Die Notfallpraxis ist im Kreiskrankenhaus Lörrach. Sprechzeiten Mo – Fr 19.00 – 22.00 und Sa-So 09.00 – 22.00 Uhr. Zahnärztlicher Notfalldienst 01803 222 555 35. DRK Rettungsdienst 19222. Notfallnummer Polizei: 110. Notfallnummer Feuerwehr: 112. Vergiftungsnotfallzentrale Freiburg 0761 19240. Kreiskrankenhaus Lörrach (07621) 416-0. Elisabethen Krankenhaus (Kinderheilkunde, Gynäkologie, HNO, Urologie) (07621) 171-0. Apotheken Notdienstkalender: <a href="https://www.aponet.de">www.aponet.de</a>
+    
+     </p></div>
+<div id="popup"> !</div>
+<div id="popuper"> <h2><b><u>Wir Machen Sommerferien</u></b></h2> <p>Die Praxis bleibt vom 19.8.24-6.9.24 geschlossen. Vertrung durch das Hausartztzentrum Brombach in der Dr. Debus Straße 2 <a href="https://www.hausarztzentrum-brombach.de/">Website </a></p><p>Rezepte können nur noch nach Vorliegen der Versicherungskarte(1x im Quartal) ausgestellt werden. Bitte bestellen sie ihre Rezepte online, per Rezepttelfon oder per Zetteleinwurf. Sie können dann nach 2 Werktagen direkt in der Apotheke von ihrer Versichtertenkarte ausgelesen werden.  </p></div>
+<script>
+     var Notfall = document.getElementById('Notfall');
+    var Notfaller = document.getElementById('Notfaller');
+        
+    Notfall.addEventListener('click', function() {
+        if ( Notfaller.style.opacity == '1') {
+        Notfaller.style.opacity = '0';
+        }
+        else {
+            Notfaller.style.opacity = '1';
+        }
+
+    });
+    var popup = document.getElementById('popup');
+    var popuper = document.getElementById('popuper');
+        
+    popup.addEventListener('click', function() {
+        if ( popuper.style.opacity == '1') {
+        popuper.style.opacity = '0';
+        
+        }
+        else {
+            popuper.style.opacity = '1';
+        }})
+
+</script>
