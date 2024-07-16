@@ -10,12 +10,61 @@
 <img src="image1.jpg">
 <img src="image2.jpg">
 </div>
+
+<div id="Öffnungszeiten">
+Öffnungszeiten
+</div>
+<div id="Unsereärtzte">
+Unsere Ärtze
+</div>
+<div id="Rezepte">
+Rezepte
+</div>
+<div id="Öffnungs">
+    Unsere Öffnungszeiten: <br>
+    <table>
+
+        <tr>
+            <td>Montag</td>
+            <td>8:00-16:00</td>
+        </tr>
+        <tr>
+            <td>Dienstag</td>
+            <td>8:00-18:00</td>
+        </tr>
+        <tr>
+            <td>Mittwoch</td>
+            <td>8:00-12:00</td>
+        </tr>
+        <tr>
+            <td>Donnerstag</td>
+            <td>9:00-16:00</td>
+        </tr>
+        <tr>
+            <td>Freitag</td>
+            <td>8:00-13:00</td>
+        </tr>
+    </table>
+    <h3>Wir Machen Sommerferien</h3>
+    <p> Die Praxis bleibt vom 19.8.24-6.9.24 geschlossen. Vertrung durch das Hausartztzentrum Brombach in der Dr. Debus Straße 2 <a href="https://www.hausarztzentrum-brombach.de/">Website </a> </p> <br><br><br>
+</div>
 <div id="Notfall">Notfall</div>
 <div id="Notfaller"><h2><b><u>Notfall</u></b></h2><p>Ärtzlicher Notfalldienst: Mo-Fr von 7-19 Uhr unter 01805 152637 Nach 19:00 Uhr sowie an Feiertagen und Wochenenden erreichen Sie den Ärztlichen Bereitschaftsdienst unter der Telefonnummer 116117. Die Notfallpraxis ist im Kreiskrankenhaus Lörrach. Sprechzeiten Mo – Fr 19.00 – 22.00 und Sa-So 09.00 – 22.00 Uhr. Zahnärztlicher Notfalldienst 01803 222 555 35. DRK Rettungsdienst 19222. Notfallnummer Polizei: 110. Notfallnummer Feuerwehr: 112. Vergiftungsnotfallzentrale Freiburg 0761 19240. Kreiskrankenhaus Lörrach (07621) 416-0. Elisabethen Krankenhaus (Kinderheilkunde, Gynäkologie, HNO, Urologie) (07621) 171-0. Apotheken Notdienstkalender: <a href="https://www.aponet.de">www.aponet.de</a>
     
      </p></div>
 <div id="popup"> !</div>
-<div id="popuper"> <h2><b><u>Wir Machen Sommerferien</u></b></h2> <p>Die Praxis bleibt vom 19.8.24-6.9.24 geschlossen. Vertrung durch das Hausartztzentrum Brombach in der Dr. Debus Straße 2 <a href="https://www.hausarztzentrum-brombach.de/">Website </a></p><p>Rezepte können nur noch nach Vorliegen der Versicherungskarte(1x im Quartal) ausgestellt werden. Bitte bestellen sie ihre Rezepte online, per Rezepttelfon oder per Zetteleinwurf. Sie können dann nach 2 Werktagen direkt in der Apotheke von ihrer Versichtertenkarte ausgelesen werden.  </p></div>
+<div id="popuper"> <h2><b><u>Wir Machen Sommerferien</u></b></h2> <p>  Die Praxis bleibt vom 19.8.24-6.9.24 geschlossen. Vertrung durch das Hausartztzentrum Brombach in der Dr. Debus Straße 2 <a href="https://www.hausarztzentrum-brombach.de/">Website </a></p><p>Rezepte können nur noch nach Vorliegen der Versicherungskarte(1x im Quartal) ausgestellt werden. Bitte bestellen sie ihre Rezepte online, per Rezepttelfon oder per Zetteleinwurf. Sie können dann nach 2 Werktagen direkt in der Apotheke von ihrer Versichtertenkarte ausgelesen werden.  </p></div>
+
+<div id="Themen">
+    Klicken sie auf eines der Themen!
+</div>
+
+
+
+
+
+
+
 <script>
      var Notfall = document.getElementById('Notfall');
     var Notfaller = document.getElementById('Notfaller');
@@ -39,6 +88,18 @@
         }
         else {
             popuper.style.opacity = '1';
+        }})
+    var Öffnungszeiten = document.getElementById('Öffnungszeiten');
+    var Öffnungs = document.getElementById('Öffnungs');
+        
+    Öffnungszeiten.addEventListener('click', function() {
+        if ( Öffnungs.style.opacity == '1') {
+        Öffnungs.style.opacity = '0';
+        
+        }
+        else {
+            Öffnungs.style.opacity = '1';
+           
         }})
 
 </script>
