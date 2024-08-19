@@ -24,8 +24,10 @@
     font-style: normal;
     font-size: 20;
 }
-    .aa{ 
+.aa { 
 overflow: hidden;
+position: relative;
+top: -10px;
 }
 
 .anfangspoiler {
@@ -42,11 +44,8 @@ opacity: 1;
 
 }
 .anfangspoiler.hidden {
-    opacity: 0;
-    z-index: -52355;
-}
-#anfangspoiler {
-    z-index: 8;
+    opacity: -1;
+    z-index: -5;
 }
 
 #h2 {
