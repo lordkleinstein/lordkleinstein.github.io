@@ -1,7 +1,7 @@
 ﻿
 #bild {
     height: 100vh;
-    
+    width: auto;
     filter: blur(3px)
 }
 .container {
