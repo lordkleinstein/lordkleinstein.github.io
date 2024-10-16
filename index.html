@@ -1,5 +1,5 @@
 ﻿<meta charset="UTF-8">
-<html class="aa">
+<html class="aa" id="aa">
 <link rel="stylesheet" href="styles.css">
 <div class="Anfangspoiler" id="anfangspoiler">
     <h1 id="titel">
@@ -13,22 +13,26 @@
 </div>
 <div id="h2"> 
     <h2 class="antwort" >Wo?</h2>
+    <hr style=" border: 1px solid black; width: 96vw; margin-top: -15px;"> 
     <p class="frage2">Alemannenstraße, Maulburg </p>
     <iframe class="frage2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2688.1419158577896!2d7.760865976794053!3d47.64280898547593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4791b216ee72cccd%3A0x3fc5d4451d2697e7!2seventfabrik33!5e0!3m2!1sde!2sde!4v1723989572521!5m2!1sde!2sde" width="90%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <p class="frage">Im 1. Stock </p>
     <h2 class="antwort" >Wann?</h2>
+    <hr style=" border: 1px solid black; width: 96vw; margin-top: -15px;">
     <p class="frage">12 April 2025</p>
     <h2 class="antwort" >Dresscode</h2>
+    <hr style=" border: 1px solid black; width: 96vw; margin-top: -15px;"> 
     <p class="frage">Am besten sind Pastellfarben aber wir nehmen das nicht so genau &#128521 , <a href="https://pinterest.com"> für Inspiration hier klicken</a></p>
     <h2 class="antwort">Essen</h2>
+    <hr style=" border: 1px solid black; width: 96vw; margin-top: -15px;"> 
     <p class="frage">Zum Essen gibt es Pizza von "La Moderna". <br>
     Falls ihr einen Salat für die Vorspeise mitnehmen könntet wäre das sehr nett.
     </p>
-    <form style="font-size: 20;" action="https://usebasin.com/f/09474015bc5a" method="POST">
+    <form style="font-size: 20;" action="https://getform.io/f/alljwmxa" method="POST">
         <label for="name" class ="label">Name:</label >
-        <input type="text" class="inputs" id="name" name="name"> <br>
+        <input type="text" class="inputs" id="name"> <br>
         <label for="name" class ="label">Email-Ardesse:</label>
-        <input type="email" class="inputs" id="email" name="email">
+        <input type="email" class="inputs" id="name">
         <input type="submit"  value="Senden" class="label">
     </form>
 </div>
@@ -40,6 +44,6 @@
         document.getElementById('anfangspoiler').classList.add('hidden');
     }, 3000); // 3000 Millisekunden = 3 Sekunden
     setTimeout(function() {
-            document.html.classList.remove('a');
+            document.getElemntById('aa').classList.add('aaa');
         }, 3000); // 3000 Millisekunden = 3 Sekunden
 </script>

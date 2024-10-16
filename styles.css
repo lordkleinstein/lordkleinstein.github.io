@@ -15,19 +15,21 @@
 
 #titel {
     z-index: 98754547547745745457457754 ;
-    font-weight: 1;
+    font-weight: 11111;
     position: absolute; 
     top: 70vh;
     left: 39vw;
     color: white;
     font-family: "Lumanosimo", cursive;
     font-style: normal;
-    font-size: 20;
+    font-size: 2vw;
 }
 .aa { 
-overflow: hidden;
+overflow-x: hidden;
+overflow-y: scroll;
 position: relative;
-top: -10px;
+top: -1px;
+transition: overflow 1ms;
 }
 
 .anfangspoiler {
@@ -42,6 +44,7 @@ position: absolute;
 transition: opacity 2s;
 opacity: 1;
 
+
 }
 .anfangspoiler.hidden {
     opacity: -1;
@@ -54,29 +57,17 @@ opacity: 1;
     
 }
 .antwort {
-    padding-left: 2px;
-    padding-right: 2px;
-   
-    border-bottom: 1px black solid;
-    margin-bottom: 7px;
+ 
 }
 .frage {
   
-    font-size: 18 ;
-    border-bottom: 1px black solid;
-    margin-top: 2px;
-
-    margin-bottom: 7px;
-    padding-bottom: 7px;
+    font-size: 1vw ;
+    
 }
 .frage2 {
   
-    font-size: 18 ;
-    margin-top: 2px;
+    font-size: 1vw ;
 
-    margin-bottom: 1px;
-    padding-bottom: 7px;
-}
 .inputs {
     border: 0px solid black;
     border-bottom: 1px solid black; 
@@ -85,4 +76,10 @@ opacity: 1;
     border: 0px solid black;
     border-bottom: 1px solid black; 
 
+}
+.aa.aaa {
+    overflow: scroll;
+}
+.designerr {
+   border: 200000000000000px solid red;
 }
