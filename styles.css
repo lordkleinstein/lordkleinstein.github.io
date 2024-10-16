@@ -67,7 +67,7 @@ opacity: 1;
 .frage2 {
   
     font-size: 1vw ;
-
+}
 .inputs {
     border: 0px solid black;
     border-bottom: 1px solid black; 
@@ -76,10 +76,4 @@ opacity: 1;
     border: 0px solid black;
     border-bottom: 1px solid black; 
 
-}
-.aa.aaa {
-    overflow: scroll;
-}
-.designerr {
-   border: 200000000000000px solid red;
 }
